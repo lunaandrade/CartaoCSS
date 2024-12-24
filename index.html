@@ -1,0 +1,133 @@
+<DOCTYPE! html>
+<html>
+    <head>
+        <meta charset="UTP-8">
+        <title>Cartão de Visita</title>
+        <style>
+            .principal {
+                position: relative;
+                justify-content: center;
+                align-items: center; 
+                background-color:azure;}
+
+            .perfil {
+                border-radius: 50%;
+                border: 0.5px solid white;
+                width: 115px;
+                height: 115px;
+                position: absolute;
+                right: 15px;
+                top: 20px;}
+
+            .deco1 {width: 125px; height: 125px; position: absolute; right: -7px;top: -7px;}
+
+            .deco2 {width: 125px; height: 125px; position: absolute; left: -7px; bottom: -7px;}
+
+            .box1 {
+                width: 350px;
+                height: 200px;
+                background: linear-gradient(90deg, #e6bc80,#a67f60);
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+                padding: 30px;
+                position: relative;
+                margin: 0 auto;
+                top: 50px}
+
+            .box2 {
+                margin: 0 auto;
+                width: 350px;
+                height: 200px;
+                background: linear-gradient(90deg,#a67f60,#e6bc80);
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+                padding: 30px;
+                position: relative;
+                justify-content: center;
+                align-items: center;
+                top: 70px;}
+
+            .logo_i {width: 20px; height: 20px; position: relative; margin-left: 10px; margin-top: 35px;}
+
+            .logo_g {width: 20px; height: 20px; margin-left: 10px; margin-top: 5px;}
+ 
+            .logo_e {width: 20px; height: 20px; margin-left: 10px; margin-top: 5px;}
+
+            .texto_pequeno {font-family: 'Trebuchet MS', sans-serif; color: #ffffff; font-size:smaller; margin: 10px;}
+
+            .texto_grande {
+                font-family:'Trebuchet MS', sans-serif;
+                font-weight:bold;
+                color:#ffffff;
+                margin: 10px;
+                top: 30px;
+                font-size:xx-large;}
+
+            .insta {
+                font-family: 'Trebuchet MS', sans-serif;
+                color: #ffffff;
+                font-size:smaller; 
+                position: absolute;
+                left: 65px;
+                top: 153px;}
+
+            .git {
+                font-family: 'Trebuchet MS', sans-serif;
+                color: #ffffff;
+                font-size:smaller; 
+                position: absolute;
+                left: 65px;
+                top: 176px;}
+
+            .email {
+                font-family: 'Trebuchet MS', sans-serif;
+                color: #ffffff;
+                font-size:smaller; 
+                position: absolute;
+                left: 65px;
+                top: 202px;}
+
+            .arvore {width: 100px; height: 100px; position: absolute; top: 75px; left: 160px;}
+        </style>
+    </head>
+
+    <body class="principal">
+        <div class="box1">
+            <header>
+                <p class="texto_grande">LUNA ANDRADE</p>
+                <p class="texto_pequeno" margin = 10px>Designer UX/UI <br> Desenvolvedora Front-End</p>
+                <img src="img/perfil.jpeg" class="perfil">
+            </header>
+            <main>
+                <aside>
+                    <div>
+                        <div>
+                            <a href="https://www.instagram.com/lunnaandradde" target="_blank">
+                                <img src="img/insta.png" class="logo_i">
+                                <p class="insta">lunnaandradde</p>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://github.com/lunaandrade" target="_blank">
+                                <img src="img/git.png" class="logo_g">
+                                <p class="git">github.com/lunaandrade</p>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="mailto:lunaandrade@aluno.ifce.edu.br">
+                                <img src="img/email.png" class="logo_e">
+                                <p class="email">lunaandrade@aluno.ifce.edu.br</p>
+                            </a>
+                        </div>
+                    </div>
+                </aside>
+            </main>        
+        </div>
+
+        <div class="box2"> 
+            <footer>
+                <img src="img/web.png" class="arvore">
+                <img src="img/lines.png" class="deco1">
+                <img src="img/lines1.png" class="deco2">
+            </footer>
+        </div>
+    </body>
+</html>
